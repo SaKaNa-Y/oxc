@@ -1178,6 +1178,8 @@ fn test_call_expressions() {
 
     test("URL.canParse()", false);
 
+    test("BigInt64Array.of()", false);
+    test("BigUint64Array.of()", false);
     test("Float32Array.of()", false);
     test("Float64Array.of()", false);
     test("Int16Array.of()", false);
